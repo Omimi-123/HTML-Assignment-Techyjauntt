@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .intro {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .intro>p{
+            font-size: 1rem;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>ORETAN STEPHEN OLUWALAJA</h1>
+    <div class="intro">
+        <img src="Profile_Image.jpeg" alt="My Profile Picture">
+        <p>Hello! I'm Stepehn Oretan by name, a web developer and an engineering student passionate about coding,designs and Technologies</p>
+    </div>
+    
+    <h2 id="about">About Me</h2>
+    <p>I enjoy learning new technologies and working on creative projects with friends.</p>
+    
+    <h3>Links</h3>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Visit Google</a></li>
+        <li><a href="about.html">About Page</a></li>
+        <li><a href="#about">Go to About Me Section</a></li>
+    </ul>
+    
+    <h3>Contact Me Form</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+    <h3>My Favorite Movies/Hobbies</h3>
+    <table>
+        <tr>
+            <th>Movie/Hobby</th>
+            <th>Reason</th>
+        </tr>
+        <tr>
+            <td>Vikings</td>
+            <td>A Mind-bending storyline With a nice action Scenes</td>
+        </tr>
+        <tr>
+            <td>Photography</td>
+            <td>Capturing beautiful moments of myself and friends</td>
+        </tr>
+        <tr>
+            <td>Swimming</td>
+            <td>Allow Me to think and enjoy the water body</td>
+        </tr>
+    </table>
+</body>
+</html>
